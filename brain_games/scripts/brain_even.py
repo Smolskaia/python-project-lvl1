@@ -4,11 +4,12 @@ import prompt
 from random import randint
 
 
-def even_odd_game():
+def play_even_game():
     print('Welcome to the Brain Games!')
     who = prompt.string('May I have your name? ')
     print(f'Hello, {who}!')
     print('Answer "yes" if the number is even, otherwise answer "no"')
+    congrats = f'Congratulations, {who}!'
 
     counter = 0
     while counter < 3:
@@ -27,12 +28,12 @@ def even_odd_game():
             counter += 1
         else:
             print(f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.\nLet's try again, {who}!")
-            break
-        print(f'Congratulations, {who}!')
+            return
+    print(congrats)
 
 
 def main():
-        even_odd_game()
+        play_even_game()
 
 
 if __name__ == '__main__':
