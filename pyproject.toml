@@ -3,8 +3,12 @@ name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["Anna Smolskaya <anna31rus@mail.ru>"]
+repository = "https://github.com/Smolskaia/python-project-lvl1"
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Topic :: Education"
 ]
 
 [tool.poetry.dependencies]
