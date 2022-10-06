@@ -14,7 +14,9 @@ The package contains five simple mathematics quiz games:
 - Prime number - brain-prime
 
 Installation
+
 Use the package manager pip to install Brain Games.
+
 pip install --user git+https://github.com/Smolskaia/python-project-lvl1.git
 
 Usage
